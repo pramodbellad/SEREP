@@ -10,6 +10,7 @@ class SESpec extends GebReportingSpec {
 
      then:
 	 println "hi"
+	 println "Test"
      assert at(GoogleHomePage)
 	 
 	    }
